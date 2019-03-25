@@ -1,6 +1,6 @@
 # Apigee IdP Pattern 1A - End-user Authentication for API access.
 
-This is a commonly used enterprise pattern where the access to APIs requires end-user Authentication. The pattern is based on the below decisions from the [IdP Integration Decision Graph](https://github.com/nas-hub/Apigee-Security#decision-graph):
+This is a commonly used enterprise pattern where the access to APIs requires end-user Authentication. The pattern is based on the below decisions from the [IdP Integration Decision Graph](https://github.com/nas-hub/Apigee-Enterprise-Security-Design-Patterns/tree/master/IAM-Integration#decision-graph):
 
 **Decision 1**:  Access to APIs requires end-user authentication.
 
@@ -47,9 +47,9 @@ This is a commonly used enterprise pattern where the access to APIs requires end
 
 **[End-user Authentication for API access via OpenId Connect](https://github.com/nas-hub/enduser-authentication-for-api-access-via-oidc)** 
 
-**[End-user Authentication for API access via SAML]()** 
+**End-user Authentication for API access via SAML (coming soon..)** 
 
-**[End-user Authentication for API access via OAuth 2.0]()** 
+**End-user Authentication for API access via OAuth 2.0 (coming soon..)** 
 
 
 
