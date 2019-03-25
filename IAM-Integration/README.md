@@ -39,8 +39,7 @@ Here are detailed of key decision you make in the above decision graph:
 
 Each green hexagon represents a design pattern that is derived based on above decisions. Below links to these design patterns show its reference and solution architecture.
 
-[Apigee IdP Pattern 1A](./IdP_Pattern_1A)
-
+[Apigee IdP Pattern 1A](./IdP-Pattern-1A)
 [Apigee IdP Pattern 1B](./idp_design_pattern_one/idp_pattern_1B)
 
 [Apigee IdP Pattern 2A](./idp_design_pattern_one/idp_pattern_2A)
