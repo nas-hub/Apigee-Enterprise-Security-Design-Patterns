@@ -10,7 +10,7 @@ Based on requirements across enterprise customers, here is a list of 7 most comm
 Below decision graph helps you pick the right design pattern that addresses your enterprise needs.
 The leaf nodes of this graph are the 7 design patterns, based on your key decisions you make at each decision node you land upon a specific design pattern that best fits your needs. 
 
-The design pattern refers to a high level reference architecture, a well defined solution architecture and fully deployable Apigee solution.
+The design pattern refers to a high level reference architecture, a well-defined solution architecture and fully deployable Apigee solution.
 
 ## Glossary / Terminology
 **IdP** :Identity Provider, the solution that is responsible for providing Identity services such as Authentication, Authorization and SSO.
@@ -36,6 +36,9 @@ Here are detailed of key decision you make in the above decision graph:
 **Decision 3:** App Authentication: Which component is the trusted source to identify/authenticate Applications. This decision will also be based on which App Store front and DevPortal is being used to register Applications.
 
 **Decision 4:** API Token Authority: Which component issues API Access Tokens that will be used for granting/revoking access to APIs.
+
+
+## Solutions Architecture
 
 Each green hexagon represents a design pattern that is derived based on above decisions. Below links to these design patterns show its reference and solution architecture.
 
