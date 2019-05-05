@@ -1,11 +1,10 @@
-# Apigee as Standard Based Authentication Interface for Enterprise Identity Store.
-## End-user Authentication for API access.
+# Apigee as standards based authentication Interface for Enterprise Identity Store.
 
 This is a commonly used enterprise pattern where the access to APIs requires end-user Authentication. The pattern is based on the below decisions from the [IdP Integration Decision Graph](https://github.com/nas-hub/Apigee-Enterprise-Security-Design-Patterns/tree/master/IAM-Integration#decision-graph):
 
 **Decision 1**: Access to APIs requires end-user authentication.
 
-**Decision 2:** Apigee provides standards based authentication services on top of Identity Store.
+**Decision 2:** Identity Store authenticates End User. Apigee provides standards based authentication services on top of Identity Store.
 
 **Decision 3:** Apigee authenticates Application.
 
