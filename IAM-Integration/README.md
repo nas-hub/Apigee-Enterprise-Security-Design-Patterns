@@ -31,7 +31,7 @@ Here are detailed of key decision you make in the above decision graph:
 
 **Decision 1:**  end-user Authentication: This is the first key decision, the question here really is about the need for the API to know who the actual end-user is. If the API is protected and can only be accessed by authenticated users then the answer should be Yes. If the API does not need to know the end-users the answer should be No; note that the API might still need to Identify/Authenticate the calling Application.
 
-**Decision 2:** IdP can authenticate all types of users: This is a very critical key decision, where-in we need to know different types of end-users that may access this API and also can all these different types of end-users be authenticated using the IdP.  If the answer is No, then that leads to a solution that requires Apigee to play the role of Identity Authentication Broker. 
+**Decision 2:** Is there IdP system in enterprise? An IdP system that provides OAuth, OpenID Connect and latest standards based Authentication. If yes, can IdP authenticate all types of users: This is a very critical key decision, where-in we need to know different types of end-users that may access this API and also can all these different types of end-users be authenticated using the IdP.  If the answer is No, then that leads to a solution that requires Apigee to play the role of Identity Authentication Broker. 
 
 **Decision 3:** App Authentication: Which component is the trusted source to identify/authenticate Applications. This decision will also be based on which App Store front and DevPortal is being used to register Applications.
 
