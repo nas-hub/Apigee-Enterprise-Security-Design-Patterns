@@ -1,14 +1,11 @@
-# Apigee as standards based authentication Interface for Enterprise Identity Store.
+# Apigee as standards based authentication interface for an existing Enterprise Identity Store.
 
-This is a commonly used enterprise pattern where the access to APIs requires end-user Authentication. The pattern is based on the below decisions from the [IdP Integration Decision Graph](https://github.com/nas-hub/Apigee-Enterprise-Security-Design-Patterns/tree/master/IAM-Integration#decision-graph):
+This is a common enterprise pattern where the access to APIs requires end-user Authentication and enterprise only has Authentication Service. The pattern is based on the below decisions from the [IdP Integration Decision Graph](https://github.com/nas-hub/Apigee-Enterprise-Security-Design-Patterns/tree/master/IAM-Integration#decision-graph):
 
 **Decision 1**: Access to APIs requires end-user authentication.
 
-**Decision 2:** Identity Store authenticates End User. Apigee provides standards based authentication services on top of Identity Store.
+**Decision 2:** No Identity Provider modules exists, Identity Store authenticates End User. Apigee provides standards based authentication services on top of existing Identity Store.
 
-**Decision 3:** Apigee authenticates Application.
-
-**Decision 4:** Apigee will be the end-user Access Token Authority.
 
 ## Reference Architecture:
 
@@ -45,9 +42,9 @@ This is a commonly used enterprise pattern where the access to APIs requires end
 
 ### List of deployable solutions based on above reference architecture:
 
-**[End-user Authentication for API access over OpenId Connect](https://github.com/nas-hub/enduser-authentication-for-api-access-via-oidc)** 
+**[Apigee as OIDC Identity Provider for an existing Authentication Service](https://github.com/nas-hub/apigee-as-oidc-idp-for-existing-authentication-service)** 
 
-**[End-user Authentication for API access over OAuth](coming soon..)** 
+**[Apigee as OIDC Interface for GCIP](https://github.com/nas-hub/apigee-as-oidc-interface-for-cicp)**
  
 
 
