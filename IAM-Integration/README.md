@@ -46,14 +46,14 @@ Each green hexagon represents a design pattern that is derived based on above de
 
 [Apigee Identity Store Pattern](./IdentityStore-Pattern)
 
-Apigee IdP Pattern 1B (coming soon..)
+Apigee IdP Pattern 1B
 
-Apigee IdP Pattern 2A (coming soon..)
+Apigee IdP Pattern 2A
 
-Apigee IdP Pattern 2B (coming soon..)
+Apigee IdP Pattern 2B
 
-Apigee IdP Pattern 3 (coming soon..)
+Apigee IdP Pattern 3 
 
-Apigee IdP Pattern 4A (coming soon..)
+Apigee IdP Pattern 4A
 
-Apigee IdP Pattern 4B (coming soon..)
+Apigee IdP Pattern 4B
